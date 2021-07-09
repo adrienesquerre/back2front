@@ -24,7 +24,12 @@ export const CalendarApp = () => {
 
   return(
     <>
-      <video source={require('../../videos/video-4.mp4')} autoPlay loop muted />
+      <video id="background-video" loop autoPlay>
+        <source
+          src={require("../../videos/video-4.mp4").default}
+          type="video/mp4"
+        />
+      </video>
       <div id="calendarbody">
       <div id="container">
         <CalendarHeader 

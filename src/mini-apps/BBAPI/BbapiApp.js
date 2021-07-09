@@ -28,14 +28,19 @@ const BBapiApp = () => {
 
   return (
     <>
-    <video source={require('../../videos/video-4.mp4')} autoPlay loop muted />
-    <div className='container'>
-      <Headerbb />
-      <Search getQuery={(q) => setQuery(q)} />
-      <CharacterGrid isLoading={isLoading} items={items} />
-    </div>
+      <video id="background-video" loop autoPlay>
+        <source
+          src={require("../../videos/video-4.mp4").default}
+          type="video/mp4"
+        />
+      </video>
+      <div className="container">
+        <Headerbb />
+        <Search getQuery={(q) => setQuery(q)} />
+        <CharacterGrid isLoading={isLoading} items={items} />
+      </div>
     </>
-  )
+  );
 }
 
 export default BBapiApp

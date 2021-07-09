@@ -8,7 +8,9 @@ import { Link } from 'react-router-dom';
 function Frontend() {
     return (
       <div className="cards">
-        <video src='\videos\video-4.mp4' autoPlay loop muted />
+             <video id="background-video" loop autoPlay>
+                <source src={require('../../videos/video-4.mp4').default} type="video/mp4" />
+            </video>
         <div className='hero'>
         <h1>Frontend Projects</h1>
         <h2 className="herosection">
