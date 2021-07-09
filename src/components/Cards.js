@@ -3,7 +3,7 @@ import CardItem from "./CardItem"
 function Cards() {
     return (
         <div className='cards'>
-            <video src='\videos\video-4.mp4' autoPlay loop muted />
+            <video source={require('../videos/video-4.mp4')} autoPlay loop muted />
             <div className='hero'>
             <h1>Projects Overview</h1>
             <h2>"Any sufficiently advanced technology is indistinguishable from Magic"<br></br>Arthur C. Clarke</h2>

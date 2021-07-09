@@ -28,7 +28,7 @@ const BBapiApp = () => {
 
   return (
     <>
-    <video src="/videos/video-4.mp4" autoPlay loop muted />
+    <video source={require('../../videos/video-4.mp4')} autoPlay loop muted />
     <div className='container'>
       <Headerbb />
       <Search getQuery={(q) => setQuery(q)} />
