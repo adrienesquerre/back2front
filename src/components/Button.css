@@ -1,0 +1,282 @@
+:root{
+    --primary: rgb(95, 255, 89);
+}
+
+.btn {
+    padding: 8x 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn--primary {
+background-color: var(--primary);
+color: #242424;
+border: 1px solid var(--primary);
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: rgb(95, 255, 89);
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3 ease-out;
+}
+
+.btn--medium {
+    padding: 8px 20px;
+    font-size: 18px;
+}
+
+.btn--large {
+    padding: 12px 26px;
+    font-size: 20px;
+}
+
+.btn--medium:hover, 
+.btn--large:hover {
+transition: all 0.3 ease-out;
+transition: 250ms;
+}
+
+button:active {
+	transform: scale(0.98);
+}
+
+.hero-btns {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+    width: 35%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    text-align: center;
+    background-color: #0000009f ;
+    border-radius: 15px;
+}
+
+.description {
+    display: block;
+    padding-left: 35px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 70%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+    border: 1px solid rgb(95, 255, 89) !important;
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-indent:-7%;
+}
+
+
+
+ol, ul {
+    list-style: none;
+}
+
+.description ul li:before {
+    content: '\2713'!important;
+    color: rgb(95, 255, 89);
+    margin-right: 7px;
+    vertical-align: middle;
+    font-size: 1.2em!important;
+}
+
+/* -------------- FAT BABY BUTTON -------------- */
+
+.button {
+
+    /* text */
+        text-decoration: 		none;
+        font-size: 	20px;
+        user-select: 			none;
+        text-align: center;
+      font-family: 'Chau Philomene One', sans-serif;
+    
+        
+    /* layout */
+        padding: 				.7em .7em .4em .6em;
+        margin: 				.5em;
+        margin-bottom:  .7em;
+        display: 				inline-block;
+        position: 				relative;
+        width: 70%;
+        
+    /* effects */
+        border-bottom: 		1px solid rgba(0,0,0,0.1);
+        box-sizing: border-box;
+    
+    }
+
+/* -------------- icon -------------- */
+
+.fa-js:before {
+    content: "\f3b9";
+font-family: FontAwesome;
+padding-left: 10px;
+ padding-right: 10px;
+vertical-align: middle;
+ margin-right: 0.6em;
+ animation: fa-spin 2s
+}
+
+/* -------------- colours and hover green button -------------- */
+
+#greenb.button.fatbaby { color: 				hsl(131, 100%, 30%) !important;
+	background-color: 	hsl(131, 100%, 70%);
+		-webkit-box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+							hsl(131, 70%, 50%) 0 .1em 3px, hsl(131, 80%, 40%) 0 .3em 1px, /* color border */
+							rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+	-moz-box-shadow: 	inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+							hsl(131, 70%, 50%) 0 .1em 3px, hsl(131, 80%, 40%) 0 .3em 1px, /* color border */
+							rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+	box-shadow: 		inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+							hsl(131, 70%, 50%) 0 .1em 3px, hsl(131, 80%, 40%) 0 .3em 1px, /* color border */
+							rgba(7, 22, 71, 0.507) 0 .5em 5px; /* drop shadow */
+}
+#greenb.button.fatbaby:hover { 	background-color: hsl(131, 100%, 80%); }
+
+/* -------------- States -------------- */
+
+.button:hover {
+	background-color: 	hsl(0, 0%, 83%);
+}
+
+.button:active {
+	background-image: 	-webkit-gradient(radial, 50% 0, 100, 50% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0) ));
+	background-image: 	-moz-gradient(radial, 50% 0, 100, 50% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0) ));
+	background-image: 	gradient(radial, 50% 0, 100, 50% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0) ));
+
+	-webkit-box-shadow: inset rgba(255,255,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.2) 0 -0.1em .3em, /* inner shadow */ 
+							rgba(0,0,0,0.4) 0 .1em 1px, /* border */
+							rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+	-moz-box-shadow: 	inset rgba(255,255,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.2) 0 -0.1em .3em, /* inner shadow */ 
+							rgba(0,0,0,0.4) 0 .1em 1px, /* border */
+							rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+	box-shadow: 		inset rgba(112, 238, 133, 0.76) 0 0.3em .3em, inset rgba(0,0,0,0.2) 0 -0.1em .3em, /* inner shadow */ 
+							rgba(0,0,0,0.4) 0 .1em 1px, /* border */
+							rgba(48, 199, 245, 0.2) 0 .2em 6px; /* drop shadow */
+
+	-webkit-transform: 	translateY(.2em);
+	-moz-transform: 	translateY(.2em);
+	transform: 			translateY(.2em);
+}
+
+.button:focus {
+	outline: none;
+	color: rgba(254,255,255,0.9) !important;
+	text-shadow: rgba(0,0,0,0.2) 0 1px 2px;
+}
+
+.button[disabled], .button[disabled]:hover, .button.disabled, .button.disabled:hover {
+	opacity: 			.5;
+	cursor: 			default;
+	color: 				rgba(0,0,0,0.2) !important;
+	text-shadow: 		none !important;
+	background-color: 	rgba(0,0,0,0.05);
+	background-image: 	none;
+	border-top: 		none;
+
+	-webkit-box-shadow: inset rgba(254, 255, 254, 0.4) 0 0.3em .3em, inset rgba(0,0,0,0.1) 0 -0.1em .3em, /* inner shadow */ 
+							rgba(0,0,0,0.3) 0 .1em 1px, /* border */
+							rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+	-moz-box-shadow: 	inset rgba(255,254,255,0.4) 0 0.3em .3em, inset rgba(0,0,0,0.1) 0 -0.1em .3em, /* inner shadow */ 
+							rgba(0,0,0,0.3) 0 .1em 1px, /* border */
+							rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+	box-shadow: 		inset rgba(254, 255, 254, 0.4) 0 0.3em .3em, inset rgba(0,0,0,0.1) 0 -0.1em .3em, /* inner shadow */ 
+							rgba(0,0,0,0.3) 0 .1em 1px, /* border */
+							rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+
+	-webkit-transform: 	translateY(5px);
+	-moz-transform: 	translateY(5px);
+	transform: 			translateY(5px);
+}
+
+
+/* -------------- Fonts -------------- */
+
+.serif { 
+	font-family: 'Sansita', sans-serif;
+	font-weight: 			normal;
+}
+
+
+
+/* -------------- Materials -------------- */
+
+.button.glossy:after, .button.glass:after {
+	content: 	"";
+	position: 	absolute; 
+    width: 		90%;
+    height: 	60%;
+    top: 		0;
+    left: 		5%;    
+    
+    -webkit-border-radius: 	.5em .5em 1em 1em / .5em .5em 2em 2em;    
+    -moz-border-radius: 	.5em .5em 1em 1em / .5em .5em 2em 2em;
+    border-radius: 			.5em .5em 1em 1em / .5em .5em 2em 2em;
+    background-image: 		-webkit-gradient(linear, 0% 0, 100% 0, from( rgba(255,255,255,.55) ), to( rgba(255,255,255,.5) ),
+    							color-stop(.5, rgba(255,255,255,0)), color-stop(.8, rgba(255,255,255,0)) );	
+    background-image: 		-moz-linear-gradient(left, rgba(255,255,255,.55), rgba(255,255,255,0) 50%, rgba(255,255,255,0) 80%, rgba(255,255,255,.5) );	
+    background-image: 		gradient(linear, 0% 0, 100% 0, from( rgba(255,255,255,.55) ), to( rgba(255,255,255,.5) ),
+    							color-stop(.5, rgba(255,255,255,0)), color-stop(.8, rgba(255,255,255,0)) );	
+}
+.button.glossy:active:after,
+.button.glass:active:after,
+.button.disabled:after,
+.button[disabled]:after
+ { opacity: .6; }
+
+.button.icon.glossy:after,
+.button.icon.glass:after { height: 75% ; }
+
+
+/* round */
+.round, .round.glossy:after, .round.glass:after { 
+	border-top: none; 
+	-webkit-border-radius: 	15px; 
+	-moz-border-radius: 	15px; 
+	border-radius: 			15px; 
+}
+
+
+
+/* Damn, this became a fat baby..  */
+
+
+@media screen and (max-width: 960px) {
+    .button {
+        width: 75%;
+    }
+    .hero-btns {
+        width: 70%;
+    }
+    .description {
+        width: 75%;
+    }
+    }
+
+    
+    @media screen and (max-width: 768px) {
+
+        .button {
+            width: 85%;
+        }
+        .hero-btns {
+
+            width: 80%;
+
+        }
+        .description {
+
+            width: 85%;
+
+        }
+
+    }
