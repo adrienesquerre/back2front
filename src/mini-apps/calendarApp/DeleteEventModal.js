@@ -4,7 +4,7 @@ export const DeleteEventModal = ({ onDelete, eventText, onClose }) => {
   return(
     <>
       <div id="deleteEventModal">
-        <h2>Event</h2>
+        <h5>Event</h5>
 
         <p id="eventText">{eventText}</p>
 

@@ -87,7 +87,7 @@ video {
   /* Alternative color for the day hover and current day: #540474c2 */
 
   .event {
-    font-size: 10px;
+    font-size: 11px;
     padding: 3px;
     background-color: rgb(95, 255, 89);
     color: #0A2C80;
@@ -107,7 +107,7 @@ video {
     box-shadow: 0px 0px 3px black;
     border-radius: 5px;
     width: 350px;
-    top: 200px;
+    top: 300px;
     left: calc(50% - 175px);
     position: absolute;
     font-family: sans-serif;
@@ -125,13 +125,15 @@ video {
     box-shadow: 0px 0px 3px gray;
   }
   #eventTitleInput.error {
-    border: 2px solid red;
+    border: 2px solid rgb(255, 91, 145);
   }
   #cancelButton, #deleteButton {
     background-color: rgb(95, 255, 89);
+    padding: 1px 6px;
   }
   #saveButton, #closeButton {
     background-color: rgb(95, 255, 89);
+    padding: 1px 6px;
   }
   #eventText {
     margin-top: 10px;
@@ -143,7 +145,7 @@ video {
     left: 0px;
     z-index: 10;
     width: 100vw;
-    height: 120vh;
+    height: 170vh;
     position: absolute;
     background-color: rgba(0,0,0,0.8);
   }

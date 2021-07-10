@@ -7,7 +7,7 @@ export const NewEventModal = ({ onSave, onClose }) => {
   return(
     <>
       <div id="newEventModal">
-        <h2>New Event</h2>
+        <h5>New Event</h5>
 
         <input 
           className={error ? 'error' : ''}

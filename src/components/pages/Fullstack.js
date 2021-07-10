@@ -46,7 +46,7 @@ function Fullstack() {
             <ul>
               <h3>
                 <li>
-                Fetch API request using Async function and Await promise
+                Fetch API using Async function and Await promise
                 </li>
                 <li>
                 Filter query to render info and image from characters
