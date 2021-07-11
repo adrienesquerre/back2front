@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.aa435048.chunk.css",
+    "main.css": "./static/css/main.c8c7cf3a.chunk.css",
     "main.js": "./static/js/main.9a99c6dd.chunk.js",
     "main.js.map": "./static/js/main.9a99c6dd.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.ea667bbe.js",
@@ -8,7 +8,7 @@
     "static/js/2.89fafc8b.chunk.js": "./static/js/2.89fafc8b.chunk.js",
     "static/js/2.89fafc8b.chunk.js.map": "./static/js/2.89fafc8b.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.aa435048.chunk.css.map": "./static/css/main.aa435048.chunk.css.map",
+    "static/css/main.c8c7cf3a.chunk.css.map": "./static/css/main.c8c7cf3a.chunk.css.map",
     "static/js/2.89fafc8b.chunk.js.LICENSE.txt": "./static/js/2.89fafc8b.chunk.js.LICENSE.txt",
     "static/media/Fluid lightbox popup min.png": "./static/media/Fluid lightbox popup min.83a59bf9.png",
     "static/media/Hooks-Chat-2_16X9-4-ue7i3 min.jpg": "./static/media/Hooks-Chat-2_16X9-4-ue7i3 min.7387ebc2.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.ea667bbe.js",
     "static/js/2.89fafc8b.chunk.js",
-    "static/css/main.aa435048.chunk.css",
+    "static/css/main.c8c7cf3a.chunk.css",
     "static/js/main.9a99c6dd.chunk.js"
   ]
 }
