@@ -7,6 +7,11 @@
     background-size: cover; */
   }
   
+  /* html,
+  body {
+  } */
+
+  
   video {
     object-fit: cover;
     width: 100%;
