@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.930745ff.chunk.css",
-    "main.js": "./static/js/main.111a89ee.chunk.js",
-    "main.js.map": "./static/js/main.111a89ee.chunk.js.map",
+    "main.css": "./static/css/main.bbacfd90.chunk.css",
+    "main.js": "./static/js/main.63dea154.chunk.js",
+    "main.js.map": "./static/js/main.63dea154.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.ea667bbe.js",
     "runtime-main.js.map": "./static/js/runtime-main.ea667bbe.js.map",
     "static/js/2.3e0d5062.chunk.js": "./static/js/2.3e0d5062.chunk.js",
     "static/js/2.3e0d5062.chunk.js.map": "./static/js/2.3e0d5062.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.930745ff.chunk.css.map": "./static/css/main.930745ff.chunk.css.map",
+    "static/css/main.bbacfd90.chunk.css.map": "./static/css/main.bbacfd90.chunk.css.map",
     "static/js/2.3e0d5062.chunk.js.LICENSE.txt": "./static/js/2.3e0d5062.chunk.js.LICENSE.txt",
     "static/media/Bath Chill FULL.a2177901.jpg": "./static/media/Bath Chill FULL.a2177901.jpg",
     "static/media/Countryside FULL.57bf8305.jpg": "./static/media/Countryside FULL.57bf8305.jpg",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.ea667bbe.js",
     "static/js/2.3e0d5062.chunk.js",
-    "static/css/main.930745ff.chunk.css",
-    "static/js/main.111a89ee.chunk.js"
+    "static/css/main.bbacfd90.chunk.css",
+    "static/js/main.63dea154.chunk.js"
   ]
 }
