@@ -21,50 +21,62 @@ const Gallery = () => {
         {
             id: 1,
             imgSrc: Img1,
+            caption: "Just chillin'",
         },
         {
             id: 2,
             imgSrc: Img2,
+            caption: "Contemplation",
         },
         {
             id: 3,
             imgSrc: Img3,
+            caption: "Don't wake up Daddy",
         },
         {
             id: 4,
             imgSrc: Img4,
+            caption: "Somewhere in France",
         },
         {
             id: 5,
             imgSrc: Img5,
+            caption: "Silverton, CO, USA",
         },
         {
             id: 6,
             imgSrc: Img6,
+            caption: "Outdoor bath",
         },
         {
             id: 7,
             imgSrc: Img7,
+            caption: "Time for fun",
         },
         {
             id: 8,
             imgSrc: Img8,
+            caption: "Endless Russia",
         },
         {
             id: 9,
             imgSrc: Img9,
+            caption: "San Pedro Cactus near Quito",
         },
         {
             id: 10,
             imgSrc: Img10,
+            caption: "Maybe Portugal",
         },
         {
             id: 11,
             imgSrc: Img11,
+            caption: "Ocean breeze",
         },
         {
             id: 12,
             imgSrc: Img12,
+            caption: "Thunder",
         },
     ]
 
@@ -85,8 +97,11 @@ const Gallery = () => {
         <div className="gallery">
             {data.map((item, index)=> {
                 return(
+                    <div class="img-container">
                     <div className="pics" key={index} onClick={()=> getImg(item.imgSrc)}>
-                        <img src={item.imgSrc} style={{width: '100%'}}></img>
+                        <img src={item.imgSrc}></img>
+                        <h2 className="gal-txt">{item.caption}</h2>
+                    </div>
                     </div>
                 )
             })}
