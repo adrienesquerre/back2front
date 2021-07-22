@@ -4,6 +4,7 @@ import Cards from '../Cards';
 
 
 function Home () {
+    window.scrollTo(0, 0);
     return (
         <>
         <Cards />

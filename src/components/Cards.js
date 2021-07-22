@@ -4,7 +4,7 @@ function Cards() {
     return (
         <div className='cards'>
             <video id="background-video" loop autoPlay>
-                <source src={require('../videos/video-4.mp4').default} type="video/mp4" />
+                <source src={require('../videos/video-3.mp4').default} type="video/mp4" />
             </video>
             <div className='hero'>
             <h1>Projects Overview</h1>
@@ -32,8 +32,8 @@ function Cards() {
                         <CardItem 
                         src = {require('../images/Fluid lightbox popup min.png').default}
                         text="Fluid Lightbox Popup"
-                        label='Frontend. Still building..'
-                        path='/frontend'
+                        label='Frontend'
+                        path='/lightbox'
                         />
                         <CardItem 
                         src = {require('../images/spacex launch.jpg').default}

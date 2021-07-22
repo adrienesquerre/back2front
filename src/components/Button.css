@@ -74,7 +74,17 @@ button:active {
     text-indent:-7%;
 }
 
+.hr {
+    display: inline-block;
+  }
 
+  .hr:after {
+    content: '';
+    display: block;
+    border-top: 1px solid rgb(95, 255, 89);
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+  }
 
 ol, ul {
     list-style: none;

@@ -26,6 +26,8 @@ function Navbar() {
 
     window.addEventListener('resize', showButton);
 
+    window.scrollTo(0, 0);
+
     return (
         <>
            <nav className="navbar">
@@ -53,6 +55,9 @@ function Navbar() {
                            </Link>
                        </li>
                        <li className='nav-item'>
+                           <Link to ='/automation' className='nav-links' onClick={closeMobileMenu}>
+                                Automation
+                           </Link>
                        </li>
                    </ul>
                </div>

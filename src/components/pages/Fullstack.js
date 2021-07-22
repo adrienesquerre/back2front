@@ -5,10 +5,11 @@ import { Link } from 'react-router-dom';
 
 
 function Fullstack() {
+  window.scrollTo(0, 0);
     return (
         <div className="cards">
              <video id="background-video" loop autoPlay>
-                <source src={require('../../videos/video-4.mp4').default} type="video/mp4" />
+                <source src={require('../../videos/video-3.mp4').default} type="video/mp4" />
             </video>
         <div className='hero'>
         <h1>Fullstack Projects</h1>
@@ -17,7 +18,8 @@ function Fullstack() {
         </h2>
         </div>
         <div className="hero-btns">
-          <h4>React Interactive Calendar App</h4>
+        <h4 className="hr">Interactive Calendar App</h4>
+          <h5 className="stack"><i class="fab fa-react"></i> React</h5>
           <div className="description">
             <ul>
               <h3>
@@ -41,7 +43,8 @@ function Fullstack() {
           </a>
         </div>
         <div className="hero-btns">
-          <h4>React Breaking Bad API</h4>
+        <h4 className="hr">Breaking Bad API</h4>
+          <h5 className="stack"><i class="fab fa-react"></i> React</h5>
           <div className="description">
             <ul>
               <h3>
@@ -62,7 +65,7 @@ function Fullstack() {
           </div>
           <Link to='/bbapi'>
           <a id="greenb" class="button fatbaby serif round glass">
-          React Breaking Bad API <i class="fab fa-react"></i>
+          Breaking Bad API <i class="fab fa-react"></i>
           </a>
           </Link>
           <br></br>
