@@ -21,12 +21,25 @@
   .navbar-logo {
     color: rgb(95, 255, 89);
     justify-self: start;
-    margin-left: 20px;
     cursor: pointer;
-    text-decoration: none;
     font-size: 2rem;
     display: flex;
     align-items: center;
+  }
+
+  #nameAd {
+      letter-spacing: 3.8px;
+    }
+  
+    .fa-bolt:before {
+      font-size: 32px;
+      padding-top: 10px;
+      padding-left: 8px;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(95, 255, 89);
   }
    
   .nav-menu {
@@ -150,5 +163,9 @@
       background: #fff;
       color: #242424;
       transition: 250ms;
+    }
+
+    #nameAd {
+      display: none;
     }
   }

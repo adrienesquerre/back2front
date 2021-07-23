@@ -19,7 +19,7 @@ function Frontend() {
         </div>
         <div className="hero-btns">
         <h4 className="hr">Fluid Lightbox Popup</h4>
-          <h5 className="stack"><i class="fab fa-js-square"></i>&nbsp; JavaScript</h5>
+          <h5 className="stack"><i class="fab fa-react"></i> React &nbsp; &nbsp; <i class="fab fa-js-square"></i>&nbsp; JavaScript</h5>
           <div className="description">
             <ul>
               <h3>
@@ -27,8 +27,7 @@ function Frontend() {
                   Responsive gird of images with soft zoom effect on hover
                 </li>
                 <li>
-                  Fullscreen image (full source quality) with preview text on
-                  click
+                  HD Full screen image on click
                 </li>
               </h3>
             </ul>

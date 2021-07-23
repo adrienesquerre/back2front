@@ -21,19 +21,20 @@ function Cards() {
                         path='/calendar'
                         />
                         <CardItem 
-                        src = {require('../images/Mr bean faces/breaking-bad-cast-bean2-min.jpg').default}
-                        text="React Breaking Bad API"
-                        subtext= {[<h3>✓ Fetch API using Async function and Await promise<br></br>✓ Filter query to render info and image from characters</h3>]}
-                        label='Fullstack'
-                        path='/bbapi'
+                        src = {require('../images/Lightbox grid thumbnail min.jpg').default}
+                        subtext= {[<h3>✓ Responsive gird of images with soft zoom effect on hover<br></br>✓ HD Full screen image on click</h3>]}
+                        text="Fluid Lightbox Popup"
+                        label='Frontend'
+                        path='/lightbox'
                         />
                     </ul>
                     <ul className="cards__items">
                         <CardItem 
-                        src = {require('../images/Fluid lightbox popup min.png').default}
-                        text="Fluid Lightbox Popup"
-                        label='Frontend'
-                        path='/lightbox'
+                        src = {require('../images/Mr bean faces/breaking-bad-cast-bean2-min.jpg').default}
+                        text="React Breaking Bad API"
+                        subtext= {[<h3 style={{fontSize: '14px'}}>✓ Fetch API using Async function + Await promise<br></br>✓ Search bar with name filter</h3>]}
+                        label='Fullstack'
+                        path='/bbapi'
                         />
                         <CardItem 
                         src = {require('../images/spacex launch.jpg').default}

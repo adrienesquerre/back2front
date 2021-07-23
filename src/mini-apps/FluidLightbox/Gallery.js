@@ -66,7 +66,7 @@ const Gallery = () => {
         {
             id: 10,
             imgSrc: Img10,
-            caption: "Maybe Portugal",
+            caption: "Portugal",
         },
         {
             id: 11,
