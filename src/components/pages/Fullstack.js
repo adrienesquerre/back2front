@@ -1,6 +1,5 @@
 import React from 'react'
 import '../../App.css'
-import { Button } from '../Button';
 import { Link } from 'react-router-dom';
 
 
@@ -9,7 +8,7 @@ function Fullstack() {
     return (
         <div className="cards">
              <video id="background-video" loop autoPlay>
-                <source src={require('../../videos/video-3.mp4').default} type="video/mp4" />
+                <source src={require('../../videos/video-compressed.mp4').default} type="video/mp4" />
             </video>
         <div className='hero'>
         <h1>Fullstack Projects</h1>

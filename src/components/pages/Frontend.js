@@ -9,7 +9,7 @@ function Frontend() {
     return (
       <div className="cards">
              <video id="background-video" loop autoPlay>
-                <source src={require('../../videos/video-3.mp4').default} type="video/mp4" />
+                <source src={require('../../videos/video-compressed.mp4').default} type="video/mp4" />
             </video>
         <div className='hero'>
         <h1>Frontend Projects</h1>
@@ -27,7 +27,7 @@ function Frontend() {
                   Responsive gird of images with soft zoom effect on hover
                 </li>
                 <li>
-                  HD Full screen image on click
+                  HD Full screen image pop up on click
                 </li>
               </h3>
             </ul>

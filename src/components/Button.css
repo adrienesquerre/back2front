@@ -98,6 +98,13 @@ ol, ul {
     font-size: 1.2em!important;
 }
 
+.myvids {
+    transform: scale(.8);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px rgb(95, 255, 89);
+  }
+
 /* -------------- FAT BABY BUTTON -------------- */
 
 .button {

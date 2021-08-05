@@ -4,7 +4,7 @@ function Cards() {
     return (
         <div className='cards'>
             <video id="background-video" loop autoPlay>
-                <source src={require('../videos/video-3.mp4').default} type="video/mp4" />
+                <source src={require('../videos/video-compressed.mp4').default} type="video/mp4" />
             </video>
             <div className='hero'>
             <h1>Projects Overview</h1>
@@ -22,7 +22,7 @@ function Cards() {
                         />
                         <CardItem 
                         src = {require('../images/Lightbox grid thumbnail min.jpg').default}
-                        subtext= {[<h3>✓ Responsive gird of images with soft zoom effect on hover<br></br>✓ HD Full screen image on click</h3>]}
+                        subtext= {[<h3>✓ Responsive gird of images with soft zoom effect on hover<br></br>✓ HD Full screen image pop up on click</h3>]}
                         text="Fluid Lightbox Popup"
                         label='Frontend'
                         path='/lightbox'
@@ -37,10 +37,11 @@ function Cards() {
                         path='/bbapi'
                         />
                         <CardItem 
-                        src = {require('../images/spacex launch.jpg').default}
-                        text="Fetch SpaceX launches, GraphQL and SpaceX API "
-                        label='Building in progress..'
-                        path='/fullstack'
+                        src = {require('../images/Vid-thumbnail.png').default}
+                        text="React Overview, How it works, Hooks"
+                        subtext= {[<h3 style={{fontSize: '14px'}}>✓ The video is a bit crappy, but the content is really good<br></br>✓ Learn how React works under the hood</h3>]}
+                        label='Video'
+                        path='/videos'
                         />
                         <CardItem 
                         src = {require('../images/Hooks-Chat-2_16X9-4-ue7i3 min.jpg').default}

@@ -88,6 +88,15 @@ function Navbar() {
                 Automation
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                to="/videos"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Videos
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

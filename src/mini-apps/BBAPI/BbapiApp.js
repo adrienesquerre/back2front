@@ -30,7 +30,7 @@ const BBapiApp = () => {
     <>
       <video id="background-video" loop autoPlay>
         <source
-          src={require("../../videos/video-3.mp4").default}
+          src={require("../../videos/video-compressed.mp4").default}
           type="video/mp4"
         />
       </video>

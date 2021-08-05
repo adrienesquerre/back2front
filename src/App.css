@@ -2,16 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: 'PT Sans', sans-serif;
-    /* background-attachment: url('/src/videos/video-3.mp4');
-    background-position: fixed;
-    background-size: cover; */
   }
-  
-  /* html,
-  body {
-  } */
-
-  
+    
   video {
     object-fit: cover;
     width: 100%;

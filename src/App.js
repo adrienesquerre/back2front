@@ -10,6 +10,7 @@ import BBapiApp from './mini-apps/BBAPI/BbapiApp';
 import Automation from './components/pages/Automation';
 import Footer from './components/Footer';
 import Lightbox from './mini-apps/FluidLightbox/Lightbox';
+import Videos from './components/pages/Videos';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path='/frontend' component={Frontend} />
       <Route path='/fullstack' component={Fullstack} />
       <Route path='/automation' component={Automation} />
+      <Route path='/videos' component={Videos} />
       <Route path='/calendar' component={Calendar} />
       <Route path='/bbapi' component={BBapiApp} />
       <Route path='/lightbox' component={Lightbox} />
