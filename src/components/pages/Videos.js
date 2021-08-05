@@ -10,7 +10,7 @@ function Videos() {
                 <source src={require('../../videos/video-compressed.mp4').default} type="video/mp4" />
             </video>
         <div className='hero'>
-        <h1>My crappy videos</h1>
+        <h1>My videos</h1>
         <h2 className="herosection">
           <i class="fas fa-wrench fa-spin"></i> Ongoing construction
         </h2>
