@@ -1,4 +1,5 @@
 import CardItem from "./CardItem"
+import CardItemLink from "./CardItemLink"
 
 function Cards() {
     return (
@@ -43,11 +44,11 @@ function Cards() {
                         label='Video'
                         path='/videos'
                         />
-                        <CardItem 
-                        src = {require('../images/Hooks-Chat-2_16X9-4-ue7i3 min.jpg').default}
-                        text="React Chat App"
-                        label='Building in progress..'
-                        path='/fullstack'
+                        <CardItemLink 
+                        src = {require('../images/Diary.jpg').default}
+                        text="Node.js CRUD app"
+                        subtext= {[<h3 style={{fontSize: '14px'}}>✓ Google authentication<br></br>✓ Public and private stories are stored in a secure cloud MongoDB database</h3>]}
+                        label='Back-end'
                         />
                     </ul>
                 </div>

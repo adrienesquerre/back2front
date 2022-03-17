@@ -36,10 +36,6 @@ function Fullstack() {
           Interactive Calendar App <i class="fab fa-react"></i>
           </a>
           </Link>
-          <br></br>
-          <a id="greenb" class="button fatbaby serif round glass">
-            Project tutorial video <i class="far fa-play-circle"></i>
-          </a>
         </div>
         <div className="hero-btns">
         <h4 className="hr">Breaking Bad API</h4>
@@ -67,12 +63,33 @@ function Fullstack() {
           Breaking Bad API <i class="fab fa-react"></i>
           </a>
           </Link>
-          <br></br>
+          </div>
+          <div className="hero-btns">
+        <h4 className="hr">Node.js CRUD app</h4>
+          <h5 className="stack"><i class="fab fa-node"></i> Node</h5>
+          <div className="description">
+            <ul>
+              <h3>
+                <li>
+                Google authentication
+                </li>
+                <li>
+                Public and private stories are stored in a secure cloud MongoDB database
+                </li>
+                <li>
+                Public stories can be seen only by authenticated users
+                </li>
+              </h3>
+            </ul>
+          </div>
+          <Link to='/bbapi'>
           <a id="greenb" class="button fatbaby serif round glass">
-            Project tutorial video <i class="far fa-play-circle"></i>
+          Breaking Bad API <i class="fab fa-node"></i>
           </a>
+          </Link>
         </div>
       </div>
+      
     )
 }
 
