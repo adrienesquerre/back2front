@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../App.css'
 import { Link } from 'react-router-dom';
+import { ExternalLink } from 'react-external-link';
 
 
 function Fullstack() {
@@ -82,11 +83,11 @@ function Fullstack() {
               </h3>
             </ul>
           </div>
-          <Link to='/bbapi'>
+          <ExternalLink href="https://online-diary-adrien.herokuapp.com/">
           <a id="greenb" class="button fatbaby serif round glass">
-          Breaking Bad API <i class="fab fa-node"></i>
+          Node.js CRUD app <i class="fab fa-node"></i>
           </a>
-          </Link>
+          </ExternalLink>
         </div>
       </div>
       

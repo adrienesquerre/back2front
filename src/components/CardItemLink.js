@@ -6,7 +6,7 @@ function CardItemLink(props) {
     return (
         <>
             <li className="cards__item">
-                <ExternalLink href="https://online-diary-adrien.herokuapp.com/" className="cards__item__link" to={props.path}>
+                <ExternalLink href="https://online-diary-adrien.herokuapp.com/" className="cards__item__link">
                     <figure className="cards__item__pic-wrap" data-category={props.label}>
                         <img src={props.src} alt="Travel Image"
                         className="cards__item__img" />
