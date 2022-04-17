@@ -29,7 +29,7 @@ function Cards() {
                         />
                     </ul>
                     <ul className="cards__items">
-                    <CardItem 
+                        <CardItem 
                         src = {require('../images/ECR docker terraform.jpeg').default}
                         text="Use Terraform to deploy a React app to AWS ECR"
                         subtext= {[<h3 style={{fontSize: '14px'}}>✓ The containerized weather app is deployed to AWS ECR<br></br>✓ Terraform & React repos available</h3>]}
@@ -62,16 +62,13 @@ function Cards() {
                         />
                         <CardItem 
                         src = {require('../images/default-image.jpg').default}
-                        text="React Overview, How it works, Hooks"
-                        subtext= {[<h3 style={{fontSize: '14px'}}>✓ The video is a bit crappy, but the content is really good<br></br>✓ Learn how React works under the hood</h3>]}
-                        label='Video'
-                        path='/videos'
+                        text={[<cards__item__text>&nbsp;<i class="fas fa-wrench fa-spin"></i>&nbsp; &nbsp; &nbsp; Coming Soon !</cards__item__text>]}
+                        label='Uner construction'                     
                         />
-                        <CardItemLink 
+                        <CardItem 
                         src = {require('../images/default-image.jpg').default}
-                        text="Node.js CRUD app"
-                        subtext= {[<h3 style={{fontSize: '14px'}}>✓ Google authentication<br></br>✓ Public and private stories are stored in a secure cloud MongoDB database</h3>]}
-                        label='Back-end'
+                        text={[<cards__item__text>&nbsp;<i class="fas fa-wrench fa-spin"></i>&nbsp; &nbsp; &nbsp; Coming Soon !</cards__item__text>]}
+                        label='Under construction'
                         />
                     </ul>
                 </div>
