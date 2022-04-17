@@ -21,22 +21,22 @@ function Cards() {
                         label='Fullstack'
                         path='/calendar'
                         />
-                        <CardItem 
-                        src = {require('../images/Lightbox grid thumbnail min.jpg').default}
-                        subtext= {[<h3>✓ Responsive gird of images with soft zoom effect on hover<br></br>✓ HD Full screen image pop up on click</h3>]}
-                        text="Fluid Lightbox Popup"
-                        label='Frontend'
-                        path='/lightbox'
+                        <CardItemLink 
+                        src = {require('../images/Diary.jpg').default}
+                        text="Node.js CRUD app"
+                        subtext= {[<h3 style={{fontSize: '14px'}}>✓ Google authentication<br></br>✓ Public and private stories are stored in a secure cloud MongoDB database</h3>]}
+                        label='Back-end'
                         />
                     </ul>
                     <ul className="cards__items">
-                        <CardItem 
-                        src = {require('../images/Mr bean faces/breaking-bad-cast-bean2-min.jpg').default}
-                        text="React Breaking Bad API"
-                        subtext= {[<h3 style={{fontSize: '14px'}}>✓ Fetch API using Async function + Await promise<br></br>✓ Search bar with name filter</h3>]}
-                        label='Fullstack'
-                        path='/bbapi'
+                    <CardItem 
+                        src = {require('../images/ECR docker terraform.jpeg').default}
+                        text="Use Terraform to deploy a React app to AWS ECR"
+                        subtext= {[<h3 style={{fontSize: '14px'}}>✓ The containerized weather app is deployed to AWS ECR<br></br>✓ Terraform & React repos available</h3>]}
+                        label='Video'
+                        path='/videos'
                         />
+
                         <CardItem 
                         src = {require('../images/Vid-thumbnail.png').default}
                         text="React Overview, How it works, Hooks"
@@ -44,8 +44,31 @@ function Cards() {
                         label='Video'
                         path='/videos'
                         />
+                        <CardItem 
+                        src = {require('../images/Mr bean faces/breaking-bad-cast-bean2-min.jpg').default}
+                        text="React Breaking Bad API"
+                        subtext= {[<h3 style={{fontSize: '14px'}}>✓ Fetch API using Async function + Await promise<br></br>✓ Search bar with name filter</h3>]}
+                        label='Fullstack'
+                        path='/bbapi'
+                        />
+                    </ul>
+                    <ul className="cards__items">
+                        <CardItem 
+                        src = {require('../images/Lightbox grid thumbnail min.jpg').default}
+                        subtext= {[<h3>✓ Responsive gird of images with soft zoom effect on hover<br></br>✓ HD Full screen image pop up on click</h3>]}
+                        text="Fluid Lightbox Popup"
+                        label='Frontend'
+                        path='/lightbox'
+                        />
+                        <CardItem 
+                        src = {require('../images/default-image.jpg').default}
+                        text="React Overview, How it works, Hooks"
+                        subtext= {[<h3 style={{fontSize: '14px'}}>✓ The video is a bit crappy, but the content is really good<br></br>✓ Learn how React works under the hood</h3>]}
+                        label='Video'
+                        path='/videos'
+                        />
                         <CardItemLink 
-                        src = {require('../images/Diary.jpg').default}
+                        src = {require('../images/default-image.jpg').default}
                         text="Node.js CRUD app"
                         subtext= {[<h3 style={{fontSize: '14px'}}>✓ Google authentication<br></br>✓ Public and private stories are stored in a secure cloud MongoDB database</h3>]}
                         label='Back-end'

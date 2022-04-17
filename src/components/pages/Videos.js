@@ -16,6 +16,28 @@ function Videos() {
         </h2>
         </div>
         <div className="hero-btns">
+          <h4 className="hr">Terraform to deploy a React app to AWS ECR </h4>
+          <h5 className="stack"><i class="fab fa-docker"></i> Terraform, Docker & AWS</h5>
+          <div className="description">
+            <ul>
+              <h3>
+              <li>
+                  A multi-stage stage Dockerfile is used
+                </li>
+                <li>
+                  Terraform pulls the Image from AWS ECR 
+                </li>
+                <li>
+                  NGINX web server, load balancer & auto-scalling on the background
+                </li>
+              </h3>
+            </ul>
+          </div>
+          <div className="myvids">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/F6ikuuq0aaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div className="hero-btns">
           <h4 className="hr">React Overview, How it works, Hooks</h4>
           <h5 className="stack"><i class="fab fa-react"></i> React</h5>
           <div className="description">
