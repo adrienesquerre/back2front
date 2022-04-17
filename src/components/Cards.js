@@ -63,7 +63,7 @@ function Cards() {
                         <CardItem 
                         src = {require('../images/default-image.jpg').default}
                         text={[<cards__item__text>&nbsp;<i class="fas fa-wrench fa-spin"></i>&nbsp; &nbsp; &nbsp; Coming Soon !</cards__item__text>]}
-                        label='Uner construction'                     
+                        label='Under construction'                     
                         />
                         <CardItem 
                         src = {require('../images/default-image.jpg').default}
