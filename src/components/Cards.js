@@ -24,7 +24,7 @@ function Cards() {
                         <CardItemLink 
                         src = {require('../images/Diary.jpg').default}
                         text="Node.js CRUD app"
-                        subtext= {[<h3 style={{fontSize: '14px'}}>✓ Google authentication<br></br>✓ Public and private stories are stored in a secure cloud MongoDB database</h3>]}
+                        subtext= {[<h3>✓ Google authentication<br></br>✓ Public/private stories are stored in a cloud MongoDB database</h3>]}
                         label='Back-end'
                         />
                     </ul>
@@ -62,12 +62,12 @@ function Cards() {
                         />
                         <CardItem 
                         src = {require('../images/default-image.jpg').default}
-                        text={[<cards__item__text>&nbsp;<i class="fas fa-wrench fa-spin"></i>&nbsp; &nbsp; &nbsp; Coming Soon !</cards__item__text>]}
+                        text={[<cards__item__text style={{fontSize: '24px'}}><center><i class="fas fa-wrench fa-spin"></i>&nbsp;&nbsp;Coming Soon !</center></cards__item__text>]}
                         label='Under construction'                     
                         />
                         <CardItem 
                         src = {require('../images/default-image.jpg').default}
-                        text={[<cards__item__text>&nbsp;<i class="fas fa-wrench fa-spin"></i>&nbsp; &nbsp; &nbsp; Coming Soon !</cards__item__text>]}
+                        text={[<cards__item__text style={{fontSize: '24px'}}><center><i class="fas fa-wrench fa-spin"></i>&nbsp;&nbsp;Coming Soon !</center></cards__item__text>]}
                         label='Under construction'
                         />
                     </ul>
