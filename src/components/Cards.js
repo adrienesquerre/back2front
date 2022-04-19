@@ -21,11 +21,12 @@ function Cards() {
                         label='Fullstack'
                         path='/calendar'
                         />
-                        <CardItemLink 
-                        src = {require('../images/Diary.jpg').default}
-                        text="Node.js CRUD app"
-                        subtext= {[<h3>✓ Google authentication<br></br>✓ Public/private stories are stored in a cloud MongoDB database</h3>]}
-                        label='Back-end'
+                        <CardItem 
+                        src = {require('../images/Mr bean faces/breaking-bad-cast-bean2-min.jpg').default}
+                        text="React Breaking Bad API"
+                        subtext= {[<h3 style={{fontSize: '14px'}}>✓ Fetch API using Async function + Await promise<br></br>✓ Search bar with name filter</h3>]}
+                        label='Fullstack'
+                        path='/bbapi'
                         />
                     </ul>
                     <ul className="cards__items">
@@ -44,12 +45,11 @@ function Cards() {
                         label='Video'
                         path='/videos'
                         />
-                        <CardItem 
-                        src = {require('../images/Mr bean faces/breaking-bad-cast-bean2-min.jpg').default}
-                        text="React Breaking Bad API"
-                        subtext= {[<h3 style={{fontSize: '14px'}}>✓ Fetch API using Async function + Await promise<br></br>✓ Search bar with name filter</h3>]}
-                        label='Fullstack'
-                        path='/bbapi'
+                        <CardItemLink 
+                        src = {require('../images/Diary.jpg').default}
+                        text="Node.js CRUD app"
+                        subtext= {[<h3>✓ Google authentication<br></br>✓ Public/private stories are stored in a cloud MongoDB database</h3>]}
+                        label='Back-end'
                         />
                     </ul>
                     <ul className="cards__items">
