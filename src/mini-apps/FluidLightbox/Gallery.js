@@ -26,7 +26,7 @@ const Gallery = () => {
         {
             id: 2,
             imgSrc: Img2,
-            caption: "Contemplation",
+            caption: "Anita in contemplation",
         },
         {
             id: 3,

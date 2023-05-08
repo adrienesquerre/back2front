@@ -2,15 +2,14 @@ import React from 'react'
 import '../../App.css'
 import { Link } from 'react-router-dom';
 import { ExternalLink } from 'react-external-link';
+import backgroundvideo from '../../videos/video-compressed.mp4';
 
 
 function Fullstack() {
   window.scrollTo(0, 0);
     return (
         <div className="cards">
-             <video id="background-video" loop autoPlay>
-                <source src={require('../../videos/video-compressed.mp4').default} type="video/mp4" />
-            </video>
+            <video src={backgroundvideo} loop autoPlay muted />
         <div className='hero'>
         <h1>Fullstack Projects</h1>
         <h2 className="herosection">
@@ -83,7 +82,7 @@ function Fullstack() {
               </h3>
             </ul>
           </div>
-          <ExternalLink href="https://online-diary-adrien.herokuapp.com/">
+          <ExternalLink href="https://online-diary-adrien.onrender.com/">
           <a id="greenb" class="button fatbaby serif round glass">
           Node.js CRUD app <i class="fab fa-node"></i>
           </a>

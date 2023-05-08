@@ -2,15 +2,14 @@ import React from 'react';
 import '../../App.css';
 import '../Button.css';
 import { Link } from 'react-router-dom';
+import backgroundvideo from '../../videos/video-compressed.mp4';
 
 
 function Frontend() {
   window.scrollTo(0, 0);
     return (
       <div className="cards">
-             <video id="background-video" loop autoPlay>
-                <source src={require('../../videos/video-compressed.mp4').default} type="video/mp4" />
-            </video>
+             <video src={backgroundvideo} loop autoPlay muted />
         <div className='hero'>
         <h1>Frontend Projects</h1>
         <h2 className="herosection">
