@@ -79,10 +79,25 @@ function Fullstack() {
                 <li>
                 Public stories can be seen only by authenticated users
                 </li>
+                <li>
+              If the{' '}
+              <ExternalLink href="https://online-diary-adrien.up.railway.app">
+              <a className="backup-link">
+                main site link
+              </a>
+              </ExternalLink>
+              {' '}is broken, here's{' '}
+              <ExternalLink href="https://online-diary-adrien.onrender.com/">
+              <a className="backup-link">
+                my backup site
+              </a>
+              </ExternalLink>
+              : if the initial loading is slow, do a browser refresh retry.
+            </li>
               </h3>
             </ul>
           </div>
-          <ExternalLink href="https://online-diary-adrien.onrender.com/">
+          <ExternalLink href="https://online-diary-adrien.up.railway.app">
           <a id="greenb" class="button fatbaby serif round glass">
           Node.js CRUD app <i class="fab fa-node"></i>
           </a>

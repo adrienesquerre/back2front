@@ -6,7 +6,7 @@ function CardItemLink(props) {
     return (
         <>
             <li className="cards__item">
-                <ExternalLink href="https://online-diary-adrien.onrender.com/" className="cards__item__link">
+                <ExternalLink href="https://online-diary-adrien.up.railway.app/" className="cards__item__link">
                     <figure className="cards__item__pic-wrap" data-category={props.label}>
                         <img src={props.src} alt="Travel"
                         className="cards__item__img" />

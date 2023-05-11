@@ -151,6 +151,13 @@ img {
     font-size: 20px;
     line-height: 24px;
   }
+
+  .backup-link {
+    color: rgb(170, 254, 167);
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
   
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
