@@ -92,7 +92,7 @@ function Fullstack() {
                 my backup site
               </a>
               </ExternalLink>
-              : if the initial loading is slow, do a browser refresh retry.
+              : if the initial loading is slow, do a browser refresh retry
             </li>
               </h3>
             </ul>
