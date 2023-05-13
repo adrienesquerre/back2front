@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.29c00800.css",
-    "main.js": "./static/js/main.f5d54a42.js",
+    "main.css": "./static/css/main.c6485253.css",
+    "main.js": "./static/js/main.e727b67b.js",
     "static/media/naughty_mr.bean_gif_calendar_background_5.gif": "./static/media/naughty_mr.bean_gif_calendar_background_5.d397daa987aa97abafe2.gif",
     "static/media/video-compressed.mp4": "./static/media/video-compressed.5edea443687b873a6995.mp4",
     "static/media/France FULL.jpg": "./static/media/France FULL.312efa4ff27bf56a26b5.jpg",
@@ -25,11 +25,11 @@
     "static/media/spinner.gif": "./static/media/spinner.11d9cde8ebaeadb07ba7.gif",
     "static/media/logo.png": "./static/media/logo.e6ecab4407f10ecd02bd.png",
     "index.html": "./index.html",
-    "main.29c00800.css.map": "./static/css/main.29c00800.css.map",
-    "main.f5d54a42.js.map": "./static/js/main.f5d54a42.js.map"
+    "main.c6485253.css.map": "./static/css/main.c6485253.css.map",
+    "main.e727b67b.js.map": "./static/js/main.e727b67b.js.map"
   },
   "entrypoints": [
-    "static/css/main.29c00800.css",
-    "static/js/main.f5d54a42.js"
+    "static/css/main.c6485253.css",
+    "static/js/main.e727b67b.js"
   ]
 }
