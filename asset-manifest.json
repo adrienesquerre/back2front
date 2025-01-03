@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/back2front/static/css/main.aef91177.css",
-    "main.js": "/back2front/static/js/main.2260e290.js",
+    "main.js": "/back2front/static/js/main.41c05b85.js",
     "static/media/naughty_mr.bean_gif_calendar_background_5.gif": "/back2front/static/media/naughty_mr.bean_gif_calendar_background_5.d397daa987aa97abafe2.gif",
     "static/media/video-compressed.mp4": "/back2front/static/media/video-compressed.5edea443687b873a6995.mp4",
     "static/media/France FULL.jpg": "/back2front/static/media/France FULL.312efa4ff27bf56a26b5.jpg",
@@ -26,10 +26,10 @@
     "static/media/logo.png": "/back2front/static/media/logo.e6ecab4407f10ecd02bd.png",
     "index.html": "/back2front/index.html",
     "main.aef91177.css.map": "/back2front/static/css/main.aef91177.css.map",
-    "main.2260e290.js.map": "/back2front/static/js/main.2260e290.js.map"
+    "main.41c05b85.js.map": "/back2front/static/js/main.41c05b85.js.map"
   },
   "entrypoints": [
     "static/css/main.aef91177.css",
-    "static/js/main.2260e290.js"
+    "static/js/main.41c05b85.js"
   ]
 }
