@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/back2front/static/css/main.aef91177.css",
+    "main.js": "/back2front/static/js/main.41c05b85.js",
+    "static/media/naughty_mr.bean_gif_calendar_background_5.gif": "/back2front/static/media/naughty_mr.bean_gif_calendar_background_5.d397daa987aa97abafe2.gif",
+    "static/media/video-compressed.mp4": "/back2front/static/media/video-compressed.5edea443687b873a6995.mp4",
+    "static/media/France FULL.jpg": "/back2front/static/media/France FULL.312efa4ff27bf56a26b5.jpg",
+    "static/media/Diary.jpg": "/back2front/static/media/Diary.9878caefb4e61ce6b5f7.jpg",
+    "static/media/Outdoor Bath FULL.jpg": "/back2front/static/media/Outdoor Bath FULL.9e6447e8f9b9f2ee55a2.jpg",
+    "static/media/San Pedro Cactus FULL.jpg": "/back2front/static/media/San Pedro Cactus FULL.ed5debaf53fcaca30cba.jpg",
+    "static/media/Sea FULL.jpg": "/back2front/static/media/Sea FULL.f412880e4a3ba21c6eb3.jpg",
+    "static/media/Seaside FULL.jpg": "/back2front/static/media/Seaside FULL.5f7572e9e126027ed3bd.jpg",
+    "static/media/Cruise FULL.jpg": "/back2front/static/media/Cruise FULL.031b6c2220eae5db0958.jpg",
+    "static/media/River FULL.jpg": "/back2front/static/media/River FULL.1cb75a5a780dfb620511.jpg",
+    "static/media/Pool FULL.png": "/back2front/static/media/Pool FULL.7ceb9362fcdb07b6adfb.png",
+    "static/media/Thunder FULL.jpg": "/back2front/static/media/Thunder FULL.a07a95f103a419fcf977.jpg",
+    "static/media/Mountains FULL.jpg": "/back2front/static/media/Mountains FULL.5656b6984b15d32dfe5d.jpg",
+    "static/media/Bath Chill FULL.jpg": "/back2front/static/media/Bath Chill FULL.a21779010a038685627f.jpg",
+    "static/media/default-image.jpg": "/back2front/static/media/default-image.b4b7f7418d00c1c80284.jpg",
+    "static/media/Countryside FULL.jpg": "/back2front/static/media/Countryside FULL.57bf83053d7adb12069b.jpg",
+    "static/media/breaking-bad-cast-bean2-min.jpg": "/back2front/static/media/breaking-bad-cast-bean2-min.9d3f49c2b22460d7ad3b.jpg",
+    "static/media/Lightbox grid thumbnail min.jpg": "/back2front/static/media/Lightbox grid thumbnail min.1495756c4fb5fb48148a.jpg",
+    "static/media/Vid-thumbnail.png": "/back2front/static/media/Vid-thumbnail.df8183bdd4e19b223971.png",
+    "static/media/ECR docker terraform.jpeg": "/back2front/static/media/ECR docker terraform.b015663cfd17e165c6d2.jpeg",
+    "static/media/spinner.gif": "/back2front/static/media/spinner.11d9cde8ebaeadb07ba7.gif",
+    "static/media/logo.png": "/back2front/static/media/logo.e6ecab4407f10ecd02bd.png",
+    "index.html": "/back2front/index.html",
+    "main.aef91177.css.map": "/back2front/static/css/main.aef91177.css.map",
+    "main.41c05b85.js.map": "/back2front/static/js/main.41c05b85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aef91177.css",
+    "static/js/main.41c05b85.js"
+  ]
+}
