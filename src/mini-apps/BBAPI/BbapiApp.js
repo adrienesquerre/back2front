@@ -15,7 +15,7 @@ const BBapiApp = () => {
       setIsLoading(true);
       try {
         // Fetch data from the local JSON file
-        const result = await axios('/data/characters.json');
+        const result = await axios('/back2front/data/characters.json'); // Adjusted path for GitHub Pages
         
         // Filter items based on the search query
         const filteredItems = result.data.filter((item) =>
