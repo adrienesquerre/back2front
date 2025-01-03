@@ -1,0 +1,91 @@
+[
+    {
+      "char_id": 1,
+      "name": "Walter White",
+      "actor": "Bryan Cranston",
+      "birthday": "09-07-1958",
+      "img": "/images/BBimages/BB-S5B-Walt-590.webp",
+      "status": "Deceased"
+    },
+    {
+      "char_id": 2,
+      "name": "Hank Schrader",
+      "actor": "Dean Norris",
+      "birthday": "03-20-1966",
+      "img": "/images/BBimages/Hank_S5b.webp",
+      "status": "Deceased"
+    },
+    {
+      "char_id": 3,
+      "name": "Jesse Pinkman",
+      "actor": "Aaron Paul",
+      "birthday": "09-24-1984",
+      "img": "/images/BBimages/Jesse_Season_5B.webp",
+      "status": "Alive"
+    },
+    {
+      "char_id": 4,
+      "name": "Lydia Rodarte-Quayle",
+      "actor": "Laura Fraser",
+      "birthday": "Unknown",
+      "img": "/images/BBimages/Lydia_S5b.webp",
+      "status": "Deceased"
+    },
+    {
+      "char_id": 5,
+      "name": "Marie Schrader",
+      "actor": "Betsy Brandt",
+      "birthday": "Unknown",
+      "img": "/images/BBimages/Marie_S5b.webp",
+      "status": "Alive"
+    },
+    {
+      "char_id": 6,
+      "name": "Mike Ehrmantraut",
+      "actor": "Jonathan Banks",
+      "birthday": "Unknown",
+      "img": "/images/BBimages/MikeS5.webp",
+      "status": "Deceased"
+    },
+    {
+      "char_id": 7,
+      "name": "Saul Goodman",
+      "actor": "Bob Odenkirk",
+      "birthday": "Unknown",
+      "img": "/images/BBimages/Saul_S5b.webp",
+      "status": "Alive"
+    },
+    {
+      "char_id": 8,
+      "name": "Gus Fring",
+      "actor": "Giancarlo Esposito",
+      "birthday": "Unknown",
+      "img": "/images/BBimages/Season_4_-_Gus.webp",
+      "status": "Deceased"
+    },
+    {
+      "char_id": 9,
+      "name": "Skyler White",
+      "actor": "Anna Gunn",
+      "birthday": "08-11-1970",
+      "img": "/images/BBimages/Skylar_S5b.webp",
+      "status": "Alive"
+    },
+    {
+      "char_id": 10,
+      "name": "Todd Alquist",
+      "actor": "Jesse Plemons",
+      "birthday": "Unknown",
+      "img": "/images/BBimages/Todd_S5b.webp",
+      "status": "Deceased"
+    },
+    {
+      "char_id": 11,
+      "name": "Walter White Jr.",
+      "actor": "RJ Mitte",
+      "birthday": "07-08-1993",
+      "img": "/images/BBimages/WaltJr_S5b.webp",
+      "status": "Alive"
+    }
+  ]
+  

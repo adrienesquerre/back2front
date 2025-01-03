@@ -60,6 +60,7 @@ input[type='text'] {
   width: 100%;
   height: 300px;
   object-fit: cover;
+  filter: none !important;
 }
 
 .card-inner {

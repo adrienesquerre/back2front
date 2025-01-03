@@ -1,36 +1,43 @@
-import React, { useState, useEffect } from 'react'
-import axios from 'axios'
-import Headerbb from './ui/Headerbb'
-import CharacterGrid from './characters/CharacterGrid'
-import Search from './ui/Search'
-import './BbapiApp.css'
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import Headerbb from './ui/Headerbb';
+import CharacterGrid from './characters/CharacterGrid';
+import Search from './ui/Search';
+import './BbapiApp.css';
 
 const BBapiApp = () => {
-  const [items, setItems] = useState([])
-  const [isLoading, setIsLoading] = useState(true)
-  const [query, setQuery] = useState('')
+  const [items, setItems] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [query, setQuery] = useState('');
 
   useEffect(() => {
     const fetchItems = async () => {
-      setIsLoading(true)
-      const result = await axios(
-        `https://www.breakingbadapi.com/api/characters?name=${query}`
-      )
+      setIsLoading(true);
+      try {
+        // Fetch data from the local JSON file
+        const result = await axios('/data/characters.json');
+        
+        // Filter items based on the search query
+        const filteredItems = result.data.filter((item) =>
+          item.name.toLowerCase().includes(query.toLowerCase())
+        );
 
-      console.log(result.data)
+        setItems(filteredItems);
+      } catch (error) {
+        console.error('Error fetching characters:', error);
+        setItems([]); // Fallback to an empty array on error
+      }
+      setIsLoading(false);
+    };
 
-      setItems(result.data)
-      setIsLoading(false)
-    }
-
-    fetchItems()
-  }, [query])
+    fetchItems();
+  }, [query]); // Re-fetch items when the query changes
 
   return (
     <>
-      <video id="background-video" loop autoPlay>
+      <video id="background-video" loop autoPlay muted>
         <source
-          src={require("../../videos/video-compressed.mp4").default}
+          src={require('../../videos/video-compressed.mp4').default}
           type="video/mp4"
         />
       </video>
@@ -41,6 +48,6 @@ const BBapiApp = () => {
       </div>
     </>
   );
-}
+};
 
-export default BBapiApp
+export default BBapiApp;
